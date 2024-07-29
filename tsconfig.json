@@ -1,5 +1,7 @@
 {
    "compilerOptions": {
-      "module": "commonjs"
+      "module": "commonjs",
+      "lib": ["ES2018"],
+      "outDir": "./dist",
    }
 }
