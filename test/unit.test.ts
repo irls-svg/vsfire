@@ -1,3 +1,4 @@
+import { describe } from 'mocha';
 /**
  * Test modules that depend on `vscode` must be run in the workspace test
  * environment, which is slow to initialize, so most logic is abstracted to

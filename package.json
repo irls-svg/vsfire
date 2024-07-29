@@ -25,6 +25,7 @@
    ],
    "scripts": {
       "compile": "tsc -p ./",
+      "test": "mocha dist/test/**/*.test.js",
       "test:vsc": "vscode-test"
    },
    "activationEvents": [
@@ -60,10 +61,14 @@
       ]
    },
    "devDependencies": {
+      "@types/chai": "^4.3.16",
+      "@types/mocha": "^10.0.7",
       "@types/node": "^22.0.0",
       "@types/vscode": "^1.91.0",
       "@vscode/test-cli": "^0.0.10",
       "@vscode/test-electron": "^2.4.1",
+      "chai": "^4.0.0",
+      "mocha": "^10.7.0",
       "typescript": "^5.5.4"
    }
 }
