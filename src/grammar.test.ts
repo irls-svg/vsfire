@@ -1,4 +1,3 @@
-import '@toba/test';
 import { findType, accessModifiers } from './grammar';
 
 test('finds named TypeInfo', () => {
