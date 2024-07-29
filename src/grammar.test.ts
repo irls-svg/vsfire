@@ -1,7 +1,7 @@
 import { findType, accessModifiers } from './grammar';
 
 test('finds named TypeInfo', () => {
-   ['math', 'document'].forEach(async name => {
+   ['math', 'global'].forEach(async name => {
       const info = await findType(name);
       expect(info).toBeDefined();
       expect(info).not.toBeNull();
