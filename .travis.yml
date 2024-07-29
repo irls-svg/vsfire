@@ -8,11 +8,11 @@ branches:
       - master
 
 script:
-   - yarn global add codecov
-   - yarn test
-   - codecov
+   # - yarn global add codecov
+   - npm run test
+   # - codecov
 
 sudo: false
 
 cache:
-   yarn: true
+   npm: true
